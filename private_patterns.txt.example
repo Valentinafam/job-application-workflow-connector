@@ -1,0 +1,6 @@
+# Optional local-only privacy scan terms.
+# Copy this file to private_patterns.txt and add candidate-specific names,
+# companies, addresses, usernames, postcodes, or other sensitive terms.
+#
+# Do not commit private_patterns.txt.
+
