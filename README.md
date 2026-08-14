@@ -35,9 +35,9 @@ Other sites such as SEEK, Glassdoor, Greenhouse, Lever, Workday, and company ATS
 ## Quick Start
 
 ```bash
-./scripts/install_dependencies.sh
-./scripts/install_upstream_skills.sh
-./scripts/init_workspace.sh ./my-private-job-workflow
+bash scripts/install_dependencies.sh
+bash scripts/install_upstream_skills.sh
+bash scripts/init_workspace.sh ./my-private-job-workflow
 ```
 
 Then open Codex and use this prompt:
