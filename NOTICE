@@ -1,0 +1,14 @@
+This connector is an independent workflow layer.
+
+It references these upstream projects:
+
+- yvonnehe772/applypilot
+  License: MIT
+  Copyright: Copyright (c) 2026 Yvonne He
+
+- Shuboya1030/linkedin-keyword-resume-coach
+  License: no license was visible when this connector was prepared.
+  This repository does not copy or redistribute that project's source files.
+  Users should review the upstream repository and install/use it under terms
+  permitted by its author and GitHub's Terms of Service.
+
