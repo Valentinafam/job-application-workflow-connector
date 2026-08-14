@@ -1,0 +1,6 @@
+pandas>=2.2
+python-dateutil>=2.9
+PyYAML>=6.0
+beautifulsoup4>=4.12
+requests>=2.32
+
