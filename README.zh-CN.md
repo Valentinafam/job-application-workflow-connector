@@ -35,9 +35,9 @@ SEEK、Glassdoor、Greenhouse、Lever、Workday、公司官网 ATS 等平台可�
 ## 快速开始
 
 ```bash
-./scripts/install_dependencies.sh
-./scripts/install_upstream_skills.sh
-./scripts/init_workspace.sh ./my-private-job-workflow
+bash scripts/install_dependencies.sh
+bash scripts/install_upstream_skills.sh
+bash scripts/init_workspace.sh ./my-private-job-workflow
 ```
 
 然后在 Codex 里使用：
