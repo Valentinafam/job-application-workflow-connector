@@ -1,0 +1,34 @@
+workflow:
+  default_trial: lead_finding_only
+  default_application_mode: volume
+  lead_refresh_frequency: daily_or_every_two_days
+  sources:
+    - linkedin
+  optional_sources:
+    - seek
+    - glassdoor
+    - company_ats
+
+handoff_rules:
+  stop_for:
+    - captcha
+    - login
+    - two_factor_auth
+    - payment
+    - unclear_work_authorization
+    - unclear_sponsorship
+    - unclear_compensation
+    - sensitive_legal_question
+    - resume_upload_not_verified
+
+status_values:
+  - Pending
+  - Submitted
+  - Skipped
+  - Blocked
+  - Needs user
+
+outputs:
+  dashboard_dir: dashboard
+  private_workspace_dir: private
+
