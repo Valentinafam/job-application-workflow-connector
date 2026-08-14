@@ -1,0 +1,11 @@
+{
+  "name": "job-application-workflow-connector",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Privacy-safe workflow connector for lead finding, keyword extraction, resume routing, cover letters, and application tracking.",
+  "scripts": {
+    "check:privacy": "python3 scripts/check_no_private_data.py ."
+  },
+  "devDependencies": {}
+}
+
